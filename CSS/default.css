@@ -1,0 +1,23 @@
+/* Main CSS */
+body {
+  background-color:black;
+}
+
+/* Text CSS */
+h1 {
+  color:gold;
+  text-align:center;
+  font-family:sans-serif
+}
+
+/* DIV CSS */
+.main {
+  background-color:rgba(0,128,0,0.4);
+  color:white;
+  text-align:center;
+  margin:auto;
+  position:relative;
+  max-width:1600px;
+  font-size: 14px;
+  font-family:sans-serif
+}
