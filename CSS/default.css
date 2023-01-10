@@ -21,3 +21,23 @@ h1 {
   font-size: 14px;
   font-family:sans-serif
 }
+.nav {
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin:auto;
+  position:relative;
+  max-width:1600px;
+  font-size: 14px;
+  font-family:sans-serif
+}
+.header {
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin:auto;
+  position:relative;
+  max-width:1600px;
+  font-size: 14px;
+  font-family:sans-serif
+}
