@@ -9,6 +9,11 @@ h1 {
   text-align:center;
   font-family:sans-serif
 }
+a {
+  color:lime;
+  font-family:sans-serif;
+  text-shadow: 1px red 1px blue;
+}
 
 /* DIV CSS */
 .main {
