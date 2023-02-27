@@ -1,5 +1,5 @@
 /* Main CSS */
-body {background-color:linear-gradient(to right, darkblue, darkgreen);}
+body {background-color:linear-gradient(darkblue, darkgreen);}
 /* Text CSS */
 h1 {color:gold;text-align:center;font-family:sans-serif}
 a {color:cyan;font-family:sans-serif;text-shadow:1px 1px 7px red;}
