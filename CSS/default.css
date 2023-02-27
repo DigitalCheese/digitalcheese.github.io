@@ -1,51 +1,19 @@
 /* Main CSS */
-body {
-  background-image: url(/Media/IMGs/VID%20Source%20BG.png);
-}
-
+body {background-color:linear-gradient(to right, darkblue, darkgreen);}
 /* Text CSS */
-h1 {
-  color:gold;
-  text-align:center;
-  font-family:sans-serif
-}
-a {
-  color:lime;
-  font-family:sans-serif;
-  text-shadow: 1px red 1px blue;
-}
-
+h1 {color:gold;text-align:center;font-family:sans-serif}
+a {color:cyan;font-family:sans-serif;text-shadow:1px 1px 7px red;}
 /* DIV CSS */
-.main {
-  background-color:rgba(0,128,0,0.4);
-  color:white;
-  text-align:center;
-  margin:auto;
-  position:relative;
-  max-width:1600px;
-  font-size: 14px;
-  font-family:sans-serif;
-  padding: 2px
-}
-.nav {
-  background-color:black;
-  color:white;
-  text-align:center;
-  margin:auto;
-  position:relative;
-  max-width:1600px;
-  font-size: 14px;
-  font-family:sans-serif;
-  padding: 4px;
-}
-.header {
-  background-color:black;
-  color:white;
-  text-align:center;
-  margin:auto;
-  position:relative;
-  max-width:1600px;
-  font-size: 36px;
-  font-family:sans-serif;
-  border-radius: 8px 8px 1px 1px
-}
+.main {background-color:black;color:white;text-align:center;position:relative;max-width:800px;font-family:sans-serif;padding:2px;font-size:12px}
+.nav {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:1600px;font-size:12px;font-family:sans-serif;padding:4px;}
+.header {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:1600px;font-size:36px;font-family:sans-serif;border-radius:8px 8px 1px 1px}
+/* SPOILER CSS */
+summary.spoiler {background-color:purple;width::max-content;max-width:100%;padding:4px}
+/* Dropdown Buttons */
+.dropbtn {background-color:#5C4033;color:white;padding:6px;font-size:14px;border:none;}
+.dropdown {position:relative;display:inline-block;}
+.dropdown-content {display:none;position:absolute;background-color:black;min-width:160px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
+.dropdown-content a {color:white;padding:6px 6px;text-decoration:none;display:block;}
+.dropdown-content a:hover {background-color: #222;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: darkgreen;}
