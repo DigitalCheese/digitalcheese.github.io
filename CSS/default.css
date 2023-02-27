@@ -1,6 +1,7 @@
 /* Main CSS */
 body {background-image:url(/Media/IMGs/Website-BG.png);}
 IMG {max-width:99%}
+audio {max-width:99%}
 /* Text CSS */
 h1 {color:gold;text-align:center;font-family:sans-serif}
 a {color:cyan;font-family:sans-serif;text-shadow:1px 1px 7px red;}
