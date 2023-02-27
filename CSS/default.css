@@ -4,9 +4,10 @@ body {background-color:linear-gradient(darkblue, darkgreen);}
 h1 {color:gold;text-align:center;font-family:sans-serif}
 a {color:cyan;font-family:sans-serif;text-shadow:1px 1px 7px red;}
 /* DIV CSS */
-.main {background-color:black;color:white;text-align:center;position:relative;max-width:1500px;float:right;font-family:sans-serif;padding:2px;font-size:12px}
+.main {background-color:black;color:white;text-align:center;position:relative;max-width:1800px;float:right;font-family:sans-serif;padding:2px;font-size:12px}
 .nav {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:99%;font-size:12px;font-family:sans-serif;padding:4px;}
 .header {background-color:black;color:white;text-align:center;margin:auto;position:relative;max-width:99%;font-size:36px;font-family:sans-serif;border-radius:8px 8px 1px 1px}
+.left-bar {float:left;max-width:120px;text-align:center;background-color:black;color:white;font-family:sans-serif;font-family:12px}
 .footer {font-size:10px;background-color:black;color:white;max-width:99%}
 /* SPOILER CSS */
 summary.spoiler {background-color:purple;width::max-content;max-width:100%;padding:4px}
